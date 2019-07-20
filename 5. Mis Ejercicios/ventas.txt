@@ -1,0 +1,4 @@
+1;Producto 1;10.25;10.25
+2;Producto 2;20.5;41.0
+3;Producto 3;30.75;92.25
+4;Producto 4;40;160
