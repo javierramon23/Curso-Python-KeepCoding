@@ -288,6 +288,29 @@ with open('ventas.txt', 'r') as fOrigen:
 print('EJEMPLO LECTURA SECUENCIAL DE UN FICHERO: Vamos a LEER EL FICHERO COMPLETO pero LINEA x LINEA:')
 print('\nEN FORMATO BINARIO\n')
 
+with open('ventas.txt', 'rb') as fOrigen:
+    lineaFichero = fOrigen.readline()
+    
+    while lineaFichero != b'':
+        print(lineaFichero)
+        lineaFichero = fOrigen.readline()
+
+'''
+    FORMATO TEXTO Y FORMATO BINARIO PARA ALMACENAR DATOS:
+    
+    Basicamente existen dos formas de almacenar (codificar) la información
+    dentro de un ARCHIVOS:
+    
+        Con CARACTERES de TEXTO --> Archivos de TEXTO.
+        Con INFORMACION BINARIA --> Archivos BINARIOS.
+    
+    En los DOS CASOS los ARCHIVOS son CADENAS de BYTES TERMINADAS por el CARACTER EOF
+    o End Of File.
+    
+'''
+
+
+
 
 
 
