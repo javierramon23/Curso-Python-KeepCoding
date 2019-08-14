@@ -9,6 +9,9 @@ def tasa_autonomica(precio, provincia):
     # Si no es VALENCIA, el PRECIO NO SE HABRA INCREMENTADO.
     return precio
 
+def tasa_autonomica_v2(precio, provincia):
+    pass
+
 str_precio =    input('Precio..........:')
 str_provincia = input('Provincia.......:')
 
